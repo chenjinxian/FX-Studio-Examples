@@ -2,7 +2,7 @@
 <Project type="Project">
 	<EditorCamera type="EditorCamera">
 		<Translation x="3.9625075" y="7.2386956" z="-2.420712" />
-		<Rotation x="57.320972" y="121.42095" z="-3.1625211e-06" />
+		<Rotation x="57.320965" y="121.42094" z="-3.1625209e-06" />
 	</EditorCamera>
 	<DefaultScene type="Scene">
 		<Skybox type="Skybox">
@@ -97,8 +97,8 @@
 		<Torus type="Torus">
 			<TransformComponent>
 				<Translation x="0" y="0.61313659" z="1.5063636" />
-				<Scale x="1.0473214" y="1.047328" z="1.047328" />
-				<Rotation x="33.591236" y="0" z="-0" />
+				<Scale x="1.0473214" y="1.0473281" z="1.0473281" />
+				<Rotation x="16.126621" y="0" z="-0" />
 			</TransformComponent>
 			<TorusRenderComponent>
 				<Torus diameter="1.0" thickness="0.5" tessellation="32" rhcoords="1" />
@@ -109,7 +109,7 @@
 			<TransformComponent>
 				<Translation x="1.5747758" y="0.58594477" z="1.5219324" />
 				<Scale x="1.0473214" y="1.0473368" z="1.0473368" />
-				<Rotation x="6.6078749" y="0" z="-0" />
+				<Rotation x="17.896698" y="0" z="-0" />
 			</TransformComponent>
 			<TorusRenderComponent>
 				<Torus diameter="1.0" thickness="0.5" tessellation="32" rhcoords="1" />
