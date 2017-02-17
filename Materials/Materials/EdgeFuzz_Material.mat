@@ -1,0 +1,24 @@
+<Material effect="EdgeFuzz" object="Effects\EdgeFuzz.fxo">
+    <Techniques>
+        <Technique name="main11" checked="true">
+            <Pass>p0</Pass>
+        </Technique>
+    </Techniques>
+    <Variables>
+        <WorldITXf uiwidget="None">0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </WorldITXf>
+        <WvpXf uiwidget="None">0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </WvpXf>
+        <WorldXf uiwidget="None">0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </WorldXf>
+        <ViewIXf uiwidget="None">0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </ViewIXf>
+        <Lamp0Pos object="PointLight0" uiname="Lamp 0 Position" space="World">-0.5 2 1.25</Lamp0Pos>
+        <Lamp0Color object="Pointlight0" uiname="Lamp 0 Color" uiwidget="Color">1 1 1</Lamp0Color>
+        <AmbiColor uiname="Ambient Light" uiwidget="Color">0.07 0.07 0.07</AmbiColor>
+        <SurfaceColor uiname="Surface" uiwidget="Color">1 1 1</SurfaceColor>
+        <EdgeColor uiname="Edge" uiwidget="Color">0.2 1 0.2</EdgeColor>
+        <Ks uiwidget="slider" uimin="0.000000" uimax="1.000000" uistep="0.050000" uiname="Specular">0.5</Ks>
+        <SpecExpon uiwidget="slider" uimin="1.000000" uimax="128.000000" uistep="1.000000" uiname="Specular Exponent">30</SpecExpon>
+        <EdgeExpon uiwidget="slider" uimin="0.100000" uimax="2.000000" uistep="0.010000" uiname="Edging Exponent">0.6</EdgeExpon>
+        <EdgeFade uiwidget="slider" uimin="0.000000" uimax="1.000000" uistep="0.010000" uiname="Edging Amount">0.5</EdgeFade>
+        <EdgeFadeL uiwidget="slider" uimin="0.000000" uimax="1.000000" uistep="0.010000" uiname="Edging Effect on Light">-0</EdgeFadeL>
+        <DisableCulling></DisableCulling>
+    </Variables>
+</Material>

@@ -1,0 +1,31 @@
+﻿<Material effect="lambSkin" object="Effects\lambSkin.fxo">
+	<Techniques>
+		<Technique name="TexturedPS" checked="true">
+			<Pass>p0</Pass>
+		</Technique>
+		<Technique name="UntexturedPS" checked="false">
+			<Pass>p0</Pass>
+		</Technique>
+		<Technique name="TexturedVS" checked="false">
+			<Pass>p0</Pass>
+		</Technique>
+		<Technique name="UntexturedVS" checked="false">
+			<Pass>p0</Pass>
+		</Technique>
+	</Techniques>
+	<Variables>
+		<WorldITXf uiwidget="None">0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </WorldITXf>
+		<WvpXf uiwidget="None">0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </WvpXf>
+		<WorldXf uiwidget="None">0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </WorldXf>
+		<ViewIXf uiwidget="None">0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </ViewIXf>
+		<Lamp0Pos object="PointLight0" uiname="Lamp 0 Position" space="World">-0.5 2 1.25</Lamp0Pos>
+		<Lamp0Color uiname="Lamp 0 Color" object="Pointlight0" uiwidget="Color">1 1 1</Lamp0Color>
+		<AmbiColor uiname="Ambient Light" uiwidget="Color">0.07 0.07 0.07</AmbiColor>
+		<DiffColor uiwidget="Color" uiname="Surface Diffuse">0.9 1 0.9</DiffColor>
+		<SubColor uiwidget="Color" uiname="Subsurface 'Bleed-thru'">1 0.2 0.2</SubColor>
+		<RollOff uiwidget="slider" uimin="0.000000" uimax="0.990000" uistep="0.010000" uiname="Subsurface Rolloff Range">0.2</RollOff>
+		<ColorTexture resourcename="DefaultColor.dds" uiname="Diffuse Texture" resourcetype="2D"></ColorTexture>
+		<ColorSampler></ColorSampler>
+		<DisableCulling></DisableCulling>
+	</Variables>
+</Material>

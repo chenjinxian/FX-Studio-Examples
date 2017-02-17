@@ -1,0 +1,20 @@
+﻿<Material effect="ThinFilm" object="Effects\ThinFilm.fxo">
+	<Techniques>
+		<Technique name="main11" checked="true">
+			<Pass>p0</Pass>
+		</Technique>
+	</Techniques>
+	<Variables>
+		<WorldITXf uiwidget="None">0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </WorldITXf>
+		<WvpXf uiwidget="None">0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </WvpXf>
+		<WorldXf uiwidget="None">0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </WorldXf>
+		<ViewIXf uiwidget="None">0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </ViewIXf>
+		<Lamp0Pos object="PointLight0" uiname="Lamp 0 Position" space="World">-0.5 2 1.25</Lamp0Pos>
+		<FilmDepth uiname="Film Thickness" uiwidget="slider" uimin="0.000000" uimax="0.250000" uistep="0.001000">0.05</FilmDepth>
+		<SurfaceColor uiname="Surface" uiwidget="Color">1 1 1</SurfaceColor>
+		<SpecExpon uiwidget="slider" uimin="1.000000" uimax="128.000000" uistep="1.000000" uiname="Specular Exponent">12</SpecExpon>
+		<FringeMap resourcename="ColorRamp01.png" uiname="Thinfilm Gradient" resourcetype="2D"></FringeMap>
+		<FringeMapSampler></FringeMapSampler>
+		<DisableCulling></DisableCulling>
+	</Variables>
+</Material>

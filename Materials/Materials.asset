@@ -1,0 +1,30 @@
+﻿<Assets>
+	<Effects>
+		<Effect name="DefaultEffect" object="Effects\DefaultEffect.fx">Effects\DefaultEffect.fx</Effect>
+		<Effect name="brix" object="Effects\brix.fxo">Effects\brix.fx</Effect>
+		<Effect name="carpaint_texColor" object="Effects\carpaint_texColor.fxo">Effects\carpaint_texColor.fx</Effect>
+		<Effect name="EdgeFuzz" object="Effects\EdgeFuzz.fxo">Effects\EdgeFuzz.fx</Effect>
+		<Effect name="lambSkin" object="Effects\lambSkin.fxo">Effects\lambSkin.fx</Effect>
+		<Effect name="PhongBumpReflect" object="Effects\PhongBumpReflect.fxo">Effects\PhongBumpReflect.fx</Effect>
+		<Effect name="pulse23" object="Effects\pulse23.fxo">Effects\pulse23.fx</Effect>
+		<Effect name="ThinFilm" object="Effects\ThinFilm.fxo">Effects\ThinFilm.fx</Effect>
+		<Effect name="velvety" object="Effects\velvety.fxo">Effects\velvety.fx</Effect>
+		<Effect name="wood" object="Effects\wood.fxo">Effects\wood.fx</Effect>
+	</Effects>
+	<Materials>
+		<Material name="DefaultMaterial">Materials\DefaultMaterial.mat</Material>
+		<Material name="brix_Material">Materials\brix_Material.mat</Material>
+		<Material name="carpaint_texColor_Material">Materials\carpaint_texColor_Material.mat</Material>
+		<Material name="EdgeFuzz_Material">Materials\EdgeFuzz_Material.mat</Material>
+		<Material name="lambSkin_Material">Materials\lambSkin_Material.mat</Material>
+		<Material name="PhongBumpReflect_Material">Materials\PhongBumpReflect_Material.mat</Material>
+		<Material name="pulse23_Material">Materials\pulse23_Material.mat</Material>
+		<Material name="ThinFilm_Material">Materials\ThinFilm_Material.mat</Material>
+		<Material name="velvety_Material">Materials\velvety_Material.mat</Material>
+		<Material name="wood_Material">Materials\wood_Material.mat</Material>
+	</Materials>
+	<Models />
+	<Textures>
+		<Texture name="DefaultColor">Textures\DefaultColor.dds</Texture>
+	</Textures>
+</Assets>

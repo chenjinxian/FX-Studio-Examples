@@ -1,0 +1,20 @@
+﻿<Material effect="carpaint_texColor" object="Effects\carpaint_texColor.fxo">
+	<Techniques>
+		<Technique name="main11" checked="true">
+			<Pass>p0</Pass>
+		</Technique>
+	</Techniques>
+	<Variables>
+		<WorldITXf uiwidget="None">0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </WorldITXf>
+		<WvpXf uiwidget="None">0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </WvpXf>
+		<WorldXf uiwidget="None">0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </WorldXf>
+		<ViewIXf uiwidget="None">0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </ViewIXf>
+		<Lamp0Pos object="PointLight0" uiname="Lamp 0 Position" space="World">-0.5 2 1.25</Lamp0Pos>
+		<Lamp0Color object="Pointlight0" uiname="Lamp 0 Color" uiwidget="Color">1 1 1</Lamp0Color>
+		<AmbiColor uiname="Ambient Light" uiwidget="Color">0.07 0.07 0.07</AmbiColor>
+		<SpecExpon uiwidget="slider" uimin="1.000000" uimax="128.000000" uistep="1.000000" uiname="Specular Exponent">55</SpecExpon>
+		<CarpaintMap resourcename="carpaint_nocomp_contrast.dds" uiname="Car Paint BRDF Map" resourcetype="2D"></CarpaintMap>
+		<CarpaintSampler></CarpaintSampler>
+		<DisableCulling></DisableCulling>
+	</Variables>
+</Material>

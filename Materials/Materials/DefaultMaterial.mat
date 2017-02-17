@@ -1,0 +1,18 @@
+<Material effect="DefaultEffect" object="Effects\DefaultEffect.fx">
+	<Techniques>
+		<Technique name="main11" checked="true">
+			<Pass>p0</Pass>
+		</Technique>
+	</Techniques>
+	<Variables>
+		<WorldITXf uiwidget="None">0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</WorldITXf>
+		<WvpXf uiwidget="None">0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</WvpXf>
+		<WorldXf uiwidget="None">0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</WorldXf>
+		<ViewIXf uiwidget="None">0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0</ViewIXf>
+		<LightPos object="PointLight0" space="World">10 10 -10</LightPos>
+		<AmbiColor uiname="Ambient Lighting" uiwidget="Color">0.1 0.1 0.1</AmbiColor>
+		<SurfColor uiname="Surface Color" uiwidget="Color">0.8 0.8 1</SurfColor>
+		<Ks uiname="Specular Intensity" uiwidget="slider" uimin="0" uimax="1" uistep="0.01">0.5</Ks>
+		<SpecExpon uiname="Specular Power" uiwidget="slider" uimin="1" uimax="128" uistep="1">30</SpecExpon>
+	</Variables>
+</Material>

@@ -1,0 +1,31 @@
+﻿<Material effect="wood" object="Effects\wood.fxo">
+	<Techniques>
+		<Technique name="main11" checked="true">
+			<Pass>p0</Pass>
+		</Technique>
+	</Techniques>
+	<Variables>
+		<WorldITXf uiwidget="None">0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </WorldITXf>
+		<WvpXf uiwidget="None">0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </WvpXf>
+		<WorldXf uiwidget="None">0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </WorldXf>
+		<ViewIXf uiwidget="None">0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </ViewIXf>
+		<Lamp0Pos object="PointLight0" uiname="Lamp 0 Position" space="World">-0.5 2 1.25</Lamp0Pos>
+		<Lamp0Color uiname="Lamp 0 Color" object="Pointlight0" uiwidget="Color">1 1 1</Lamp0Color>
+		<WoodScale uiwidget="slider" uimin="0.010000" uimax="20.000000" uistep="0.010000" uiname="Model Size, Relative to Wood">8</WoodScale>
+		<WOffX uiwidget="slider" uimin="-20.000000" uimax="20.000000" uistep="0.010000" uiname="X Log-Center Offset">-10</WOffX>
+		<WOffY uiwidget="slider" uimin="-20.000000" uimax="20.000000" uistep="0.010000" uiname="Y Log-Center Offset">-11</WOffY>
+		<WOffZ uiwidget="slider" uimin="-20.000000" uimax="20.000000" uistep="0.010000" uiname="Z Log-Center Offset">7</WOffZ>
+		<AmbiColor uiname="Ambient Light" uiwidget="Color">0.17 0.17 0.17</AmbiColor>
+		<WoodColor1 uiname="Lighter Wood" uiwidget="Color">0.85 0.55 0.01</WoodColor1>
+		<Ks1 uiwidget="slider" uimin="0.000000" uimax="2.000000" uistep="0.010000" uiname="Lighter Wood Specularity">0.5</Ks1>
+		<WoodColor2 uiname="Darker Wood" uiwidget="Color">0.6 0.41 0</WoodColor2>
+		<Ks2 uiwidget="slider" uimin="0.000000" uimax="2.000000" uistep="0.010000" uiname="Darker Wood Specularity">0.7</Ks2>
+		<SpecExpon uiwidget="slider" uimin="1.000000" uimax="128.000000" uistep="1.000000" uiname="Specular Exponent">30</SpecExpon>
+		<RingScale units="inch" uiwidget="slider" uimin="0.000000" uimax="10.000000" uistep="0.010000" uiname="Ring Scale">0.46</RingScale>
+		<AmpScale uiwidget="slider" uimin="0.010000" uimax="2.000000" uistep="0.010000" uiname="Wobbliness">0.7</AmpScale>
+		<NoiseScale uiwidget="slider" uimin="0.010000" uimax="100.000000" uistep="0.010000" uiname="Size of Noise Features">32</NoiseScale>
+		<Noise3DTex resourcename="noiseL8_32x32x32.dds" uiname="3D Noise Texture" resourcetype="3D"></Noise3DTex>
+		<NoiseSampler></NoiseSampler>
+		<DisableCulling></DisableCulling>
+	</Variables>
+</Material>

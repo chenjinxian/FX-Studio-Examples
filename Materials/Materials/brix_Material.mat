@@ -1,0 +1,24 @@
+﻿<Material effect="brix" object="Effects\brix.fxo">
+	<Techniques>
+		<Technique name="main11" checked="true">
+			<Pass>p0</Pass>
+		</Technique>
+	</Techniques>
+	<Variables>
+		<WorldITXf uiwidget="None">0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </WorldITXf>
+		<WvpXf uiwidget="None">0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </WvpXf>
+		<WorldXf uiwidget="None">0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </WorldXf>
+		<ViewIXf uiwidget="None">0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </ViewIXf>
+		<Lamp0Dir object="DirectionalLight0" uiname="Lamp 0 Direction" space="World">0.7 -0.7 -0.7</Lamp0Dir>
+		<AmbiColor uiname="Ambient Light" uiwidget="Color">0.17 0.17 0.17</AmbiColor>
+		<SurfColor1 uiname="Brick 1" uiwidget="Color">0.9 0.5 0 1</SurfColor1>
+		<SurfColor2 uiname="Brick 2" uiwidget="Color">0.8 0.48 0.15 1</SurfColor2>
+		<GroutColor uiname="Grouting" uiwidget="Color">0.8 0.75 0.75 1</GroutColor>
+		<BrickWidth units="inches" uiwidget="slider" uimin="0.000000" uimax="0.350000" uistep="0.001000" uiname="Brick Width">0.3</BrickWidth>
+		<BrickHeight units="inches" uiwidget="slider" uimin="0.000000" uimax="0.350000" uistep="0.001000" uiname="Brick Height">0.12</BrickHeight>
+		<GBalance uiwidget="slider" uimin="0.010000" uimax="0.350000" uistep="0.010000" uiname="Grout::Brick Ratio">0.1</GBalance>
+		<StripTexture resourcename="aa_stripe.dds" uiname="Special Mipped Stripe" resourcetype="2D">aa_stripe.dds</StripTexture>
+		<StripeSampler></StripeSampler>
+		<DisableCulling></DisableCulling>
+	</Variables>
+</Material>

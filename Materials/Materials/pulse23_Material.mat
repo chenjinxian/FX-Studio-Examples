@@ -1,0 +1,28 @@
+﻿<Material effect="pulse23" object="Effects\pulse23.fxo">
+	<Techniques>
+		<Technique name="main11" checked="true">
+			<Pass>p0</Pass>
+		</Technique>
+	</Techniques>
+	<Variables>
+		<WorldITXf uiwidget="None">0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </WorldITXf>
+		<WvpXf uiwidget="None">0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </WvpXf>
+		<WorldXf uiwidget="None">0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </WorldXf>
+		<ViewIXf uiwidget="None">0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </ViewIXf>
+		<Timer uiwidget="None">0</Timer>
+		<Lamp0Pos object="PointLight0" uiname="Lamp 0 Position" space="World">-0.5 2 1.25</Lamp0Pos>
+		<Lamp0Color uiname="Lamp 0 Color" object="Pointlight0" uiwidget="Color">1 1 1</Lamp0Color>
+		<Lamp0Intensity uiwidget="slider" uimin="1.000000" uimax="10000.000000" uistep="0.100000" uiname="Lamp 0 Quadratic Intensity">1</Lamp0Intensity>
+		<AmbiColor uiname="Ambient Light" uiwidget="Color">0.1 0.1 0.1 1.0</AmbiColor>
+		<SurfaceColor uiname="Surface" uiwidget="Color">0.3 0.9 0.1 1.0</SurfaceColor>
+		<Ks uiwidget="slider" uimin="0.000000" uimax="1.000000" uistep="0.050000" uiname="Specular">0.4</Ks>
+		<SpecExpon uiwidget="slider" uimin="1.000000" uimax="128.000000" uistep="1.000000" uiname="Specular Exponent">30</SpecExpon>
+		<Oversample uiwidget="slider" uimin="0.000000" uimax="20.000000" uistep="0.000100" uiname="AA Softness">1</Oversample>
+		<Period uiwidget="slider" uimin="0.000000" uimax="1.000000" uistep="0.001000" uiname="Stripe Period">0.5</Period>
+		<Balance uiwidget="slider" uimin="0.010000" uimax="0.990000" uistep="0.010000" uiname="Clip Balance">0.5</Balance>
+		<WaveFreq uiwidget="slider" uimin="0.000000" uimax="40.000000" uistep="0.010000" uiname="Wave Period">7</WaveFreq>
+		<WaveGain uiwidget="slider" uimin="0.000000" uimax="1.000000" uistep="0.010000" uiname="Wobbliness">0.2</WaveGain>
+		<Speed uiwidget="slider" uimin="0.000000" uimax="10.000000" uistep="0.010000" uiname="Wave Speed">2.5</Speed>
+		<DisableCulling></DisableCulling>
+	</Variables>
+</Material>
