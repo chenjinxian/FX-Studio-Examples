@@ -1,0 +1,31 @@
+﻿<Material effect="GoochBumpReflect" object="Effects\GoochBumpReflect.fxo">
+	<Techniques>
+		<Technique name="main11" checked="true">
+			<Pass>p0</Pass>
+		</Technique>
+	</Techniques>
+	<Variables>
+		<WorldITXf uiwidget="None">0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </WorldITXf>
+		<WvpXf uiwidget="None">0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </WvpXf>
+		<WorldXf uiwidget="None">0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </WorldXf>
+		<ViewIXf uiwidget="None">0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </ViewIXf>
+		<Lamp0Pos object="PointLight0" uiname="Lamp 0 Position" space="World">-0.5 2 1.25</Lamp0Pos>
+		<Lamp0Color uiname="Lamp 0 Color" object="Pointlight0" uiwidget="Color">1 1 1</Lamp0Color>
+		<AmbiColor uiname="Ambient Light" uiwidget="Color">0.07 0.07 0.07</AmbiColor>
+		<WarmColor uiname="Gooch Warm Tone" uiwidget="Color">0.00 0.37 0.18 1.00</WarmColor>
+		<CoolColor uiname="Gooch Cool Tone" uiwidget="Color">0.05 0.05 0.6</CoolColor>
+		<GlossTop uiwidget="slider" uimin="0.100000" uimax="0.950000" uistep="0.010000" uiname="Gloss Edge">0.65</GlossTop>
+		<Ks uiwidget="slider" uimin="0.000000" uimax="1.000000" uistep="0.050000" uiname="Specular">0.4</Ks>
+		<GlossDrop uiwidget="slider" uimin="0.000000" uimax="1.000000" uistep="0.010000" uiname="Gloss Falloff">0.25</GlossDrop>
+		<GlossEdge uiwidget="slider" uimin="0.000000" uimax="0.500000" uistep="0.010000" uiname="Gloss Edge">0.25</GlossEdge>
+		<SpecExpon uiwidget="slider" uimin="1.000000" uimax="128.000000" uistep="1.000000" uiname="Specular Power">74</SpecExpon>
+		<Bump uiwidget="slider" uimin="0.000000" uimax="3.000000" uistep="0.010000" uiname="Bumpiness">1</Bump>
+		<Kr uiwidget="slider" uimin="0.000000" uimax="1.000000" uistep="0.010000" uiname="Reflection Strength">0.38</Kr>
+		<SurfaceColor uiname="Surface" uiwidget="Color">1 1 1</SurfaceColor>
+		<NormalTexture resourcename="DefaultBumpNormal.dds" uiname="Normal-Map Texture" resourcetype="2D"></NormalTexture>
+		<NormalSampler></NormalSampler>
+		<EnvTexture resourcename="DefaultReflection.dds" uiname="Environment" resourcetype="Cube"></EnvTexture>
+		<EnvSampler></EnvSampler>
+		<DisableCulling></DisableCulling>
+	</Variables>
+</Material>

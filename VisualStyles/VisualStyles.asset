@@ -1,0 +1,21 @@
+﻿<Assets>
+	<Effects>
+		<Effect name="DefaultEffect" object="Effects\DefaultEffect.fx">Effects\DefaultEffect.fx</Effect>
+		<Effect name="GoochBumpReflect" object="Effects\GoochBumpReflect.fxo">Effects\GoochBumpReflect.fx</Effect>
+		<Effect name="PhongBumpReflect" object="Effects\PhongBumpReflect.fxo">Effects\PhongBumpReflect.fx</Effect>
+		<Effect name="velvety" object="Effects\velvety.fxo">Effects\velvety.fx</Effect>
+	</Effects>
+	<Materials>
+		<Material name="DefaultMaterial">Materials\DefaultMaterial.mat</Material>
+		<Material name="GoochBumpReflect_Material">Materials\GoochBumpReflect_Material.mat</Material>
+		<Material name="GoochBumpReflect_Material_copy">Materials\GoochBumpReflect_Material_copy.mat</Material>
+		<Material name="PhongBumpReflect_Material">Materials\PhongBumpReflect_Material.mat</Material>
+		<Material name="PhongBumpReflect_Material_copy">Materials\PhongBumpReflect_Material_copy.mat</Material>
+		<Material name="velvety_Material">Materials\velvety_Material.mat</Material>
+		<Material name="velvety_Material_copy">Materials\velvety_Material_copy.mat</Material>
+	</Materials>
+	<Models />
+	<Textures>
+		<Texture name="DefaultColor">Textures\DefaultColor.dds</Texture>
+	</Textures>
+</Assets>

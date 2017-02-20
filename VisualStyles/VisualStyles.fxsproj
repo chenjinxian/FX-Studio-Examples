@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project type="Project">
+	<EditorCamera type="EditorCamera">
+		<Translation x="2.1974909" y="4.1263089" z="1.7733039" />
+		<Rotation x="55.615047" y="51.09761" z="-3.0235442e-06" />
+	</EditorCamera>
+	<DefaultScene type="Scene">
+		<Skybox type="Skybox">
+			<SkyboxRenderComponent>
+				<Texture>Textures\Skybox.dds</Texture>
+			</SkyboxRenderComponent>
+		</Skybox>
+		<Grid type="Grid">
+			<GridRenderComponent>
+				<Texture>Textures\Grid.dds</Texture>
+				<GridSize x="10" y="10" />
+				<TicksInterval>1.0</TicksInterval>
+			</GridRenderComponent>
+		</Grid>
+		<UFO type="Model">
+			<TransformComponent>
+				<Translation x="-1.4621543" y="0" z="0" />
+				<Scale x="0.0031739385" y="0.0031739385" z="0.0031739385" />
+				<Rotation x="-0" y="0" z="-0" />
+			</TransformComponent>
+			<ModelRenderComponent>
+				<Model>Models\UFO.model</Model>
+				<Materials>
+					<Material index="0">Materials\DefaultMaterial.mat</Material>
+					<Material index="1">Materials\DefaultMaterial.mat</Material>
+					<Material index="2">Materials\DefaultMaterial.mat</Material>
+					<Material index="3">Materials\PhongBumpReflect_Material.mat</Material>
+					<Material index="4">Materials\DefaultMaterial.mat</Material>
+					<Material index="5">Materials\GoochBumpReflect_Material.mat</Material>
+				</Materials>
+			</ModelRenderComponent>
+		</UFO>
+		<UFO type="Model">
+			<TransformComponent>
+				<Translation x="0.36461341" y="0" z="-0.79237622" />
+				<Scale x="0.0031739385" y="0.0031739385" z="0.0031739385" />
+				<Rotation x="-0" y="0" z="-0" />
+			</TransformComponent>
+			<ModelRenderComponent>
+				<Model>Models\UFO.model</Model>
+				<Materials>
+					<Material index="0">Materials\DefaultMaterial.mat</Material>
+					<Material index="1">Materials\DefaultMaterial.mat</Material>
+					<Material index="2">Materials\DefaultMaterial.mat</Material>
+					<Material index="3">Materials\velvety_Material_copy.mat</Material>
+					<Material index="4">Materials\DefaultMaterial.mat</Material>
+					<Material index="5">Materials\velvety_Material.mat</Material>
+				</Materials>
+			</ModelRenderComponent>
+		</UFO>
+		<UFO type="Model">
+			<TransformComponent>
+				<Translation x="0" y="0" z="1.1291113" />
+				<Scale x="0.0031739385" y="0.0031739385" z="0.0031739385" />
+				<Rotation x="-0" y="0" z="-0" />
+			</TransformComponent>
+			<ModelRenderComponent>
+				<Model>Models\UFO.model</Model>
+				<Materials>
+					<Material index="0">Materials\DefaultMaterial.mat</Material>
+					<Material index="1">Materials\DefaultMaterial.mat</Material>
+					<Material index="2">Materials\DefaultMaterial.mat</Material>
+					<Material index="3">Materials\GoochBumpReflect_Material_copy.mat</Material>
+					<Material index="4">Materials\DefaultMaterial.mat</Material>
+					<Material index="5">Materials\PhongBumpReflect_Material_copy.mat</Material>
+				</Materials>
+			</ModelRenderComponent>
+		</UFO>
+	</DefaultScene>
+</Project>

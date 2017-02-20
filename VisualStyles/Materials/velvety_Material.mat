@@ -1,0 +1,31 @@
+﻿<Material effect="velvety" object="Effects\velvety.fxo">
+	<Techniques>
+		<Technique name="Textured" checked="true">
+			<Pass>p0</Pass>
+		</Technique>
+		<Technique name="Simple" checked="false">
+			<Pass>p0</Pass>
+		</Technique>
+		<Technique name="VertexTextured" checked="false">
+			<Pass>p0</Pass>
+		</Technique>
+		<Technique name="VertexSimple" checked="false">
+			<Pass>p0</Pass>
+		</Technique>
+	</Techniques>
+	<Variables>
+		<WorldITXf uiwidget="None">0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </WorldITXf>
+		<WvpXf uiwidget="None">0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </WvpXf>
+		<WorldXf uiwidget="None">0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </WorldXf>
+		<ViewIXf uiwidget="None">0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 </ViewIXf>
+		<Lamp0Pos object="PointLight0" uiname="Lamp 0 Position" space="World">-0.5 2 1.25</Lamp0Pos>
+		<Lamp0Color uiname="Lamp 0 Color" object="Pointlight0" uiwidget="Color">1 1 1</Lamp0Color>
+		<SurfaceColor uiname="Surface" uiwidget="Color">0.34 0.34 0.34 1.00</SurfaceColor>
+		<FuzzySpecColor uiwidget="Color" uiname="Fuzz">0.18 0.75 0.25 1.00</FuzzySpecColor>
+		<SubColor uiwidget="Color" uiname="Under-Color">0.00 0.00 0.00 1.00</SubColor>
+		<RollOff uiwidget="slider" uimin="0.000000" uimax="1.000000" uistep="0.050000" uiname="Edge Rolloff">0.3</RollOff>
+		<ColorTexture resourcename="DefaultColor.dds" uiname="Diffuse Texture" resourcetype="2D"></ColorTexture>
+		<ColorSampler></ColorSampler>
+		<DisableCulling></DisableCulling>
+	</Variables>
+</Material>
