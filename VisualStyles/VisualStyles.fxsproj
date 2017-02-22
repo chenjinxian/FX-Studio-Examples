@@ -26,12 +26,12 @@
 			<ModelRenderComponent>
 				<Model>Models\UFO.model</Model>
 				<Materials>
-					<Material index="0">Materials\DefaultMaterial.mat</Material>
-					<Material index="1">Materials\DefaultMaterial.mat</Material>
-					<Material index="2">Materials\DefaultMaterial.mat</Material>
-					<Material index="3">Materials\PhongBumpReflect_Material.mat</Material>
-					<Material index="4">Materials\DefaultMaterial.mat</Material>
-					<Material index="5">Materials\GoochBumpReflect_Material.mat</Material>
+					<Material name="UFO-01_Ant-BOT" index="0">Materials\DefaultMaterial.mat</Material>
+					<Material name="UFO-01_Ant-MID" index="1">Materials\DefaultMaterial.mat</Material>
+					<Material name="UFO-01_Ant-TOP" index="2">Materials\DefaultMaterial.mat</Material>
+					<Material name="UFO-01_Windows" index="3">Materials\PhongBumpReflect_Material.mat</Material>
+					<Material name="UFO-01_Detail" index="4">Materials\DefaultMaterial.mat</Material>
+					<Material name="UFO-01_Saucer" index="5">Materials\GoochBumpReflect_Material.mat</Material>
 				</Materials>
 			</ModelRenderComponent>
 		</UFO>
@@ -44,12 +44,12 @@
 			<ModelRenderComponent>
 				<Model>Models\UFO.model</Model>
 				<Materials>
-					<Material index="0">Materials\DefaultMaterial.mat</Material>
-					<Material index="1">Materials\DefaultMaterial.mat</Material>
-					<Material index="2">Materials\DefaultMaterial.mat</Material>
-					<Material index="3">Materials\velvety_Material_copy.mat</Material>
-					<Material index="4">Materials\DefaultMaterial.mat</Material>
-					<Material index="5">Materials\velvety_Material.mat</Material>
+					<Material name="UFO-01_Ant-BOT" index="0">Materials\DefaultMaterial.mat</Material>
+					<Material name="UFO-01_Ant-MID" index="1">Materials\DefaultMaterial.mat</Material>
+					<Material name="UFO-01_Ant-TOP" index="2">Materials\DefaultMaterial.mat</Material>
+					<Material name="UFO-01_Windows" index="3">Materials\velvety_Material_copy.mat</Material>
+					<Material name="UFO-01_Detail" index="4">Materials\DefaultMaterial.mat</Material>
+					<Material name="UFO-01_Saucer" index="5">Materials\velvety_Material.mat</Material>
 				</Materials>
 			</ModelRenderComponent>
 		</UFO>
@@ -62,12 +62,12 @@
 			<ModelRenderComponent>
 				<Model>Models\UFO.model</Model>
 				<Materials>
-					<Material index="0">Materials\DefaultMaterial.mat</Material>
-					<Material index="1">Materials\DefaultMaterial.mat</Material>
-					<Material index="2">Materials\DefaultMaterial.mat</Material>
-					<Material index="3">Materials\GoochBumpReflect_Material_copy.mat</Material>
-					<Material index="4">Materials\DefaultMaterial.mat</Material>
-					<Material index="5">Materials\PhongBumpReflect_Material_copy.mat</Material>
+					<Material name="UFO-01_Ant-BOT" index="0">Materials\DefaultMaterial.mat</Material>
+					<Material name="UFO-01_Ant-MID" index="1">Materials\DefaultMaterial.mat</Material>
+					<Material name="UFO-01_Ant-TOP" index="2">Materials\DefaultMaterial.mat</Material>
+					<Material name="UFO-01_Windows" index="3">Materials\GoochBumpReflect_Material_copy.mat</Material>
+					<Material name="UFO-01_Detail" index="4">Materials\DefaultMaterial.mat</Material>
+					<Material name="UFO-01_Saucer" index="5">Materials\PhongBumpReflect_Material_copy.mat</Material>
 				</Materials>
 			</ModelRenderComponent>
 		</UFO>
