@@ -13,7 +13,7 @@
 		<Grid type="Grid">
 			<GridRenderComponent>
 				<Texture>Textures\Grid.dds</Texture>
-				<GridSize x="10" y="10" />
+				<GridSize>100.0</GridSize>
 				<TicksInterval>1.0</TicksInterval>
 			</GridRenderComponent>
 		</Grid>
